@@ -12,7 +12,7 @@ import NavigationPilot
 
 // MARK: - Pilot Configuration
 public enum WayFinderConfiguration {
-    case uiKit
+    case uiPilot
     case navigationStack
     case automatic
 }
@@ -30,7 +30,7 @@ public class WayFinder<T: Equatable & Hashable>: ObservableObject {
 
         let shouldUseNavigationStack: Bool
         switch configuration {
-        case .uiKit:
+        case .uiPilot:
             shouldUseNavigationStack = false
         case .navigationStack:
             shouldUseNavigationStack = true

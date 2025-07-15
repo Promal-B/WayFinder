@@ -1,0 +1,42 @@
+{
+  "originHash" : "c1ea081e2bd4642f623568f4432e5bd36270e6fc1f2e1e5bee8688b6eb014f7c",
+  "pins" : [
+    {
+      "identity" : "navigationpilot",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Promal-B/NavigationPilot.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "605983d422e0542822bf840a75bbd40726268e62"
+      }
+    },
+    {
+      "identity" : "swiftlintplugins",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SimplyDanny/SwiftLintPlugins",
+      "state" : {
+        "revision" : "7a3d77f3dd9f91d5cea138e52c20cfceabf352de",
+        "version" : "0.58.2"
+      }
+    },
+    {
+      "identity" : "uipilot",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/canopas/UIPilot.git",
+      "state" : {
+        "revision" : "33b8123dd1e68d861d0cfce27879d5ff1755fd21",
+        "version" : "2.0.2"
+      }
+    },
+    {
+      "identity" : "wayfinder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Promal-B/WayFinder.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f1d328a156b758089661661a676e8360a833a98d"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,55 @@
+analyzer_rules: # Rules that need `swiftlint analyze`
+  - unused_import
+
+disabled_rules:
+  - trailing_whitespace
+  - force_cast
+
+opt_in_rules:
+  - array_init
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - first_where
+  - joined_default_parameter
+  - let_var_whitespace
+  - private_over_fileprivate
+  - redundant_nil_coalescing
+  - toggle_bool
+  - trailing_closure
+  - unneeded_parentheses_in_closure_argument
+  - vertical_parameter_alignment_on_call
+
+excluded:
+  - Carthage
+  - Pods
+  - fastlane
+  - build
+
+line_length: 150
+
+type_body_length:
+  warning: 200
+  error: 300
+
+function_body_length:
+  warning: 100
+  error: 150
+
+file_length:
+  warning: 400
+  error: 600
+
+type_name:
+  min_length:
+    warning: 3
+    error: 2
+  max_length:
+    warning: 40
+    error: 50
+
+cyclomatic_complexity:
+  warning: 10
+  error: 20
+
+reporter: xcode
