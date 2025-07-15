@@ -18,7 +18,7 @@ struct HomeView: View {
                 .font(.title)
                 .padding()
             
-            Text("Navigation Type: \(wayFinder.isUsingNavigationStack ? "NavigationStack" : "UINavigationController")")
+            Text("Navigation Type: \(wayFinder.isUsingNavigationStack ? "NavigationStack" : "UIPilot")")
                 .font(.caption)
                 .foregroundColor(.secondary)
                 .padding(.bottom)
